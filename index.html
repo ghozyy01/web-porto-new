@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghozy Alfienno Maulana | Web Developer</title>
+    <meta name="description" content="Portfolio Ghozy Alfienno Maulana, siswa SMKN 1 Purbalingga yang memiliki keterampilan dalam HTML, CSS, JavaScript, dan PHP.">
+    <meta name="keywords" content="Ghozy Alfienno Maulana, Web Developer, Portfolio, SMKN 1 Purbalingga">
+    <meta name="author" content="Ghozy Alfienno Maulana">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">Ghozy<span>.</span></a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting fade-in">👋 Hello, I'm</p>
+                    <h1 class="hero-name fade-in">Ghozy Alfienno<br>Maulana</h1>
+                    <p class="hero-role fade-in">
+                        <span id="typedRole">Student &amp; Web Developer</span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <p class="hero-description fade-in">
+                        Saya adalah siswa SMKN 1 Purbalingga yang memiliki minat dalam pengembangan website dan teknologi. 
+                        Saya terus belajar dan mengembangkan kemampuan dalam HTML, CSS, JavaScript, dan PHP.
+                    </p>
+                    <div class="hero-buttons fade-in">
+                        <a href="#projects" class="btn btn-primary">
+                            <i data-lucide="folder-open" class="btn-icon"></i>
+                            View My Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i data-lucide="mail" class="btn-icon"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-stats fade-in">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label">Year Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/images/hero-illustration.png" alt="Ilustrasi Ghozy Alfienno Maulana sebagai developer" class="hero-image" loading="eager">
+                        <div class="hero-decoration hero-decoration-1"></div>
+                        <div class="hero-decoration hero-decoration-2"></div>
+                        <div class="hero-decoration hero-decoration-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#about" aria-label="Scroll to About section">
+                    <i data-lucide="chevrons-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">Get To Know</p>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text fade-in">
+                        <p>
+                            Saya adalah <strong>Ghozy Alfienno Maulana</strong>, seorang siswa SMKN 1 Purbalingga 
+                            yang mempelajari Rekayasa Perangkat Lunak. Saya memiliki ketertarikan pada pengembangan 
+                            website dan pemrograman.
+                        </p>
+                        <p>
+                            Saat ini saya terus mengembangkan kemampuan dalam <strong>HTML, CSS, JavaScript, dan PHP</strong> 
+                            melalui berbagai latihan dan proyek. Saya percaya bahwa belajar secara konsisten adalah kunci 
+                            untuk menjadi developer yang handal.
+                        </p>
+                        <a href="#contact" class="btn btn-primary" style="margin-top: 1.5rem;">
+                            <i data-lucide="message-circle" class="btn-icon"></i>
+                            Let's Talk
+                        </a>
+                    </div>
+                    <div class="about-cards fade-in">
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i data-lucide="user"></i>
+                            </div>
+                            <div class="info-card-content">
+                                <span class="info-card-label">Name</span>
+                                <span class="info-card-value">Ghozy Alfienno Maulana</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i data-lucide="school"></i>
+                            </div>
+                            <div class="info-card-content">
+                                <span class="info-card-label">School</span>
+                                <span class="info-card-value">SMKN 1 Purbalingga</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <div class="info-card-content">
+                                <span class="info-card-label">Major</span>
+                                <span class="info-card-value">Rekayasa Perangkat Lunak</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i data-lucide="globe"></i>
+                            </div>
+                            <div class="info-card-content">
+                                <span class="info-card-label">Focus</span>
+                                <span class="info-card-value">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <div class="info-card-content">
+                                <span class="info-card-label">Status</span>
+                                <span class="info-card-value">Student / Learner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SKILLS SECTION ==================== -->
+        <section class="skills section-padding" id="skills">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">What I Know</p>
+                    <h2 class="section-title">My Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- HTML -->
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/>
+                                <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/>
+                                <path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/>
+                                <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">HTML</h3>
+                        <p class="skill-desc">Digunakan untuk membangun struktur halaman website.</p>
+                        <span class="skill-level skill-level-intermediate">Intermediate</span>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543z"/>
+                                <path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16z"/>
+                                <path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V24.208h34.682l-.332 3.711-3.4 38.114h-30.95z"/>
+                                <path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018z"/>
+                                <path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881z"/>
+                                <path fill="#EBEBEB" d="M64.048 24.208v13.058H30.64l-.277-3.108-.63-7.045-.331-2.905zm-.047 27.221v13.058H46.128l-.277-3.108-.631-7.045-.33-2.905z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">CSS</h3>
+                        <p class="skill-desc">Digunakan untuk membuat tampilan website menjadi menarik, responsif, dan terstruktur.</p>
+                        <span class="skill-level skill-level-intermediate">Intermediate</span>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/>
+                                <path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.21 58.943l-.024 36.044c0 4.622.166 8.928-.633 10.247-1.226 2.542-4.447 2.207-5.893 1.752-1.461-.636-2.206-1.517-3.068-2.798-.237-.381-.435-.772-.574-.772l-9.514 5.882c1.578 3.249 3.916 6.069 6.834 7.87 4.325 2.631 10.142 3.463 16.238 2.048 3.965-1.058 7.395-3.398 9.201-6.838 2.665-4.724 2.086-10.539 2.062-17.026.024-12.054.024-24.108.024-36.201z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-desc">Digunakan untuk membuat website lebih interaktif dan dinamis.</p>
+                        <span class="skill-level skill-level-basic">Basic</span>
+                    </div>
+
+                    <!-- PHP -->
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#6181B6" d="M64 33.039C30.26 33.039 2.906 46.901 2.906 64S30.26 94.961 64 94.961 125.094 81.099 125.094 64 97.74 33.039 64 33.039zM48.103 70.032c-1.458 1.364-3.077 1.927-4.86 2.507-1.783.581-4.053.862-6.812.862H31.4l-1.759 8.515h-8.571l6.871-33.308h13.569c4.013 0 7.006.937 8.981 2.513 1.975 1.575 2.735 4.036 2.413 6.937-.295 2.669-1.219 5.248-2.801 6.974zm26.515-.501c-1.458 1.364-3.077 1.927-4.86 2.507-1.783.581-4.054.862-6.812.862h-5.032l-1.759 8.515h-8.571l6.871-33.308h13.569c4.013 0 7.006.937 8.981 2.513 1.975 1.575 2.735 4.036 2.413 6.937-.295 2.669-1.219 5.248-2.801 6.974zm30.202-11.146H97.86l-1.742 8.448c-.405 1.962-.088 3.074.505 3.543.593.47 1.865.56 3.384.56h2.893l-1.296 7.98h-4.783c-3.564.019-6.104-.595-7.637-2.226-1.533-1.631-1.908-4.063-1.128-7.297l2.088-10.103h-4.039l1.447-7.012h4.039l1.476-7.147h8.537l-1.476 7.147h6.893l-1.436 7.012z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-name">PHP</h3>
+                        <p class="skill-desc">Digunakan untuk mempelajari pengembangan web dan pemrograman sisi server.</p>
+                        <span class="skill-level skill-level-basic">Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROJECTS SECTION ==================== -->
+        <section class="projects section-padding" id="projects">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">My Recent Work</p>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="assets/images/project-1.jpg" alt="Personal Portfolio Website" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="project-overlay-btn" aria-label="View project demo">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="#" class="project-overlay-btn" aria-label="View source code">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Portfolio</h3>
+                            <p class="project-desc">
+                                Website portofolio pribadi untuk menampilkan profil, keterampilan, dan proyek.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i data-lucide="external-link" class="btn-icon"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i data-lucide="github" class="btn-icon"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="assets/images/project-2.jpg" alt="Website Sekolah" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="project-overlay-btn" aria-label="View project demo">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="#" class="project-overlay-btn" aria-label="View source code">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Website Sekolah</h3>
+                            <p class="project-desc">
+                                Website informasi sekolah yang menampilkan profil sekolah, berita, pengumuman, dan informasi lainnya.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i data-lucide="external-link" class="btn-icon"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i data-lucide="github" class="btn-icon"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="assets/images/project-3.jpg" alt="Sports Field Booking Website" loading="lazy">
+                            <div class="project-overlay">
+                                <a href="#" class="project-overlay-btn" aria-label="View project demo">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="#" class="project-overlay-btn" aria-label="View source code">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sports Field Booking</h3>
+                            <p class="project-desc">
+                                Konsep website untuk melakukan pemesanan lapangan olahraga secara online.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">PHP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i data-lucide="external-link" class="btn-icon"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i data-lucide="github" class="btn-icon"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EDUCATION SECTION ==================== -->
+        <section class="education section-padding" id="education">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">My Journey</p>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="timeline fade-in">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 — Present</span>
+                            <h3 class="timeline-title">SMKN 1 Purbalingga</h3>
+                            <p class="timeline-subtitle">Rekayasa Perangkat Lunak</p>
+                            <ul class="timeline-list">
+                                <li>Pemrograman</li>
+                                <li>Web Development</li>
+                                <li>Database</li>
+                                <li>Software Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVICES SECTION ==================== -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">What I Can Do</p>
+                    <h2 class="section-title">My Services</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i data-lucide="code-2"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-desc">Membangun website menggunakan HTML, CSS, JavaScript, dan PHP.</p>
+                    </div>
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                        <h3 class="service-title">Responsive Design</h3>
+                        <p class="service-desc">Membuat website yang dapat digunakan pada desktop maupun perangkat mobile.</p>
+                    </div>
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i data-lucide="layout"></i>
+                        </div>
+                        <h3 class="service-title">Frontend Development</h3>
+                        <p class="service-desc">Membuat interface website yang sederhana, modern, dan mudah digunakan.</p>
+                    </div>
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i data-lucide="server"></i>
+                        </div>
+                        <h3 class="service-title">Backend Development</h3>
+                        <p class="service-desc">Mempelajari pengembangan website menggunakan PHP.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <p class="section-subtitle">Get In Touch</p>
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-desc">
+                        Punya pertanyaan, ide, atau ingin berdiskusi mengenai proyek? 
+                        Silakan hubungi saya melalui informasi kontak yang tersedia.
+                    </p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-item-content">
+                                <span class="contact-item-label">Email</span>
+                                <a href="mailto:ghozyalfienno@gmail.com" class="contact-item-value">ghozyalfienno@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i data-lucide="github"></i>
+                            </div>
+                            <div class="contact-item-content">
+                                <span class="contact-item-label">GitHub</span>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-item-value">github.com/ghozy</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i data-lucide="instagram"></i>
+                            </div>
+                            <div class="contact-item-content">
+                                <span class="contact-item-label">Instagram</span>
+                                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-item-value">@ghozyalfienno</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div class="contact-item-content">
+                                <span class="contact-item-label">LinkedIn</span>
+                                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-item-value">Ghozy Alfienno Maulana</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName" class="form-label">Your Name</label>
+                            <input type="text" id="contactName" name="name" class="form-input" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" class="form-label">Your Email</label>
+                            <input type="email" id="contactEmail" name="email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea id="contactMessage" name="message" class="form-input form-textarea" placeholder="Write your message..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i data-lucide="send" class="btn-icon"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">Ghozy<span>.</span></a>
+                    <p class="footer-desc">Student &amp; Web Developer dari SMKN 1 Purbalingga. Terus belajar dan berkembang di bidang teknologi.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="mailto:ghozyalfienno@gmail.com" aria-label="Email" class="social-link">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <nav>
+                        <a href="#home" class="footer-link">Home</a>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#skills" class="footer-link">Skills</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Services</h4>
+                    <nav>
+                        <a href="#services" class="footer-link">Web Development</a>
+                        <a href="#services" class="footer-link">Frontend Development</a>
+                        <a href="#services" class="footer-link">Responsive Design</a>
+                        <a href="#services" class="footer-link">Backend Development</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ghozy Alfienno Maulana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
